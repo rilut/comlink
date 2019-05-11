@@ -17,7 +17,7 @@ import {
   MessageType,
   WireValue,
   WireValueType
-} from "./protocol.js";
+} from "./protocol.ts";
 export { Endpoint };
 
 export const proxyMarker = Symbol("Comlink.proxy");
