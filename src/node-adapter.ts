@@ -11,7 +11,7 @@
  * limitations under the License.
  */
 
-import { Endpoint } from "./protocol.js";
+import { Endpoint } from "./protocol.ts";
 
 export interface NodeEndpoint {
   postMessage(message: any, transfer?: any[]): void;
